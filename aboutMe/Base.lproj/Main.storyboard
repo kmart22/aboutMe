@@ -101,7 +101,7 @@
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="ToMainFromFamily" id="2qK-Gv-GR5"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="63u-9x-trr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="20151219_103942" translatesAutoresizingMaskIntoConstraints="NO" id="63u-9x-trr">
                                 <rect key="frame" x="180" y="236" width="240" height="128"/>
                             </imageView>
                         </subviews>
@@ -113,4 +113,7 @@
             <point key="canvasLocation" x="986" y="418"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="20151219_103942" width="2988" height="5312"/>
+    </resources>
 </document>
