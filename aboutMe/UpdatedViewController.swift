@@ -18,4 +18,9 @@ class UpdatedViewController : UIViewController
     {
         
     }
+    
+    @IBAction func backFamily(sender: AnyObject)
+    {
+        performSegueWithIdentifier("ToMainFromFamily" , sender:sender)
+    }
 }
