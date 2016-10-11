@@ -25,5 +25,16 @@ class ViewController: UIViewController {
         performSegueWithIdentifier("ToUpdatedFromMain" , sender:sender)
     }
 
+    @IBAction func mainToHobby(sender: AnyObject)
+    {
+        performSegueWithIdentifier("mainToHobbies" , sender:sender)
+    }
+    @IBAction func MainToReasons(sender: AnyObject)
+    {
+        performSegueWithIdentifier("mainToReasons" , sender:sender)
+
+        
+    }
+    
 }
 
