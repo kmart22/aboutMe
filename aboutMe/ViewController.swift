@@ -35,6 +35,10 @@ class ViewController: UIViewController {
 
         
     }
+    @IBAction func mainToImpact(sender: AnyObject)
+    {
+        performSegueWithIdentifier("mainToImpact", sender:sender)
+    }
     
 }
 
